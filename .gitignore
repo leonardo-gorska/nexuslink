@@ -1,0 +1,14 @@
+bin/
+*.exe
+.env
+coverage.out
+*.mmdb
+.idea/
+.vscode/
+tmp/
+
+# Prevent AI generated tracker files from leaking into portolio
+*_STATE.md
+.gemini/
+*.resolved
+PROMPT_*.md
