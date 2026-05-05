@@ -73,7 +73,7 @@ func TestGetLinkAnalytics(t *testing.T) {
 
 			h := handler.NewAnalyticsHandler(mockUC)
 			router := chi.NewRouter()
-			router.Get("/api/v1/links/{hash}/stats", h.GetLinkAnalytics)
+			router.Get("/api/v1/links/{hash}/stats", h.GetAnalytics)
 
 			req := httptest.NewRequest(http.MethodGet, "/api/v1/links/"+tt.hashParams+"/stats", nil)
 			rec := httptest.NewRecorder()

@@ -11,7 +11,6 @@ import (
 
 	"github.com/leonardo-gorska/nexuslink/internal/adapter/handler"
 	"github.com/leonardo-gorska/nexuslink/internal/domain/entity"
-	"github.com/leonardo-gorska/nexuslink/internal/port/input"
 	"github.com/leonardo-gorska/nexuslink/internal/domain"
 )
 
